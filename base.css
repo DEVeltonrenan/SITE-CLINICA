@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: aqua;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108);
+    min-height: 150px;
+    color: #f1f1f1;
+    
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(25, 73, 47);
+    
+    min-height: 150px;
+    background-image: url(https://media.istockphoto.com/id/1072287096/pt/foto/abstract-blur-image-background-of-wating-area-clinic-hospital.jpg?s=2048x2048&w=is&k=20&c=0uHxCCqu0cBWnUmagDh4ThHkZyILSTOSNKxM8gdi52o=);
+    
+    
+    
+}
+
+.icons{
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+
+    border-radius: 50%;
+    gap: 32px;
+    
+    
+}
+.icons * {
+    font-family: "inter", sans-serif;
+    color: var(--text-color); 
+  }
+.icons a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border: 10px solid var(--text-color);
+    border-radius: 200px;
+   
+   
+}
+.txtprinc{
+    font-family: "inter", sans-serif;
+}
+
+ 
